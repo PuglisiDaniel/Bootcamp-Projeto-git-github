@@ -1,0 +1,4 @@
+Exemplo de anotação.
+baixar Git
+diferenças entre linux e windows
+utilização do gitbash para padronização
