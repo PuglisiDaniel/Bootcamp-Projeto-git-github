@@ -32,6 +32,150 @@ const App = ()=>{
       style = {[style.text, style.description]}>Estudante de ciência e tecnologia na UNIFESP-SJC</Text>
     </View>
 
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text> 
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>  
+    </View>
+
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text> 
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>  
+    </View>
+
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text> 
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>  
+    </View>
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text> 
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>  
+    </View>
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text> 
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.whiteSquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.whiteSquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.whiteSquare}></Text>  
+    </View>
+
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text> 
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>  
+    </View>
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text> 
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>  
+    </View>
+
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text> 
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.yellowSquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>  
+    </View>
+
+    <View style={[{flexDirection: 'row'}]}>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text> 
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>
+      <Text style={style.graySquare}></Text>  
+    </View>
+
+    
+
+
 
     <View style={style.button}>
       <Pressable onPress={handlePressGithub}>
@@ -91,9 +235,9 @@ const style = StyleSheet.create({
     
     marginTop: 20,
     
-   // padding: 30,
+   
     alignItems:'center',
-    //backgroundColor: fontDarkColorGit,
+   
     
   },
 
@@ -105,6 +249,44 @@ const style = StyleSheet.create({
     padding: 20
   },
 
+  graySquare: {
+    backgroundColor: 'gray',
+    padding: 5,
+    borderRadius: 5,
+    position: 'relative',
+    top: 10,
+    left: 100,
+    height: 10,
+    width: 10,
+    borderWidth: 1, 
+
+  },
+
+  yellowSquare: {
+    backgroundColor: 'yellow',
+    padding: 5,
+    borderRadius: 5,
+    position: 'relative',
+    top: 10,
+    left: 100,
+    height: 10,
+    width: 10,
+    borderWidth: 1
+
+  },
+
+  whiteSquare: {
+    backgroundColor: 'white',
+    padding: 5,
+    borderRadius: 5,
+    position: 'relative',
+    top: 10,
+    left: 100,
+    height: 10,
+    width: 10,
+    borderWidth: 1
+
+  },
  
 });
 
