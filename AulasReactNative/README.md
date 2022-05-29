@@ -1,17 +1,9 @@
-# Flashlight
+# Aulas React Native
 
-## Desafio de construção de um app usando o sensor de movimento do react native
+## Versão mobile do perfil github
 
-![image](dioLightOn.jpeg)
-![image](dioLightOff.jpeg)
+## App de lanterna usando sensor de movimento
 
-## conteúdo:
 
-- libs react-native-torch e react-native-shake
-- Stylesheet
-- Hook useState
-- Hook useEffect
-- add listener to RNShake
-- lifecicly ReactJS
 
 
