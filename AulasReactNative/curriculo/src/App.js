@@ -1,13 +1,37 @@
-
 import React from 'react';
-import {StyleSheet, View, Image, Text} from 'react-native';
+import {StyleSheet, View, Image, Text, Alert, TouchableOpacity, Linking} from 'react-native';
 import Icon from 'react-native-vector-icons/Feather';
 
 
 import foto from './assets/profile.jpg'
 
+const urlGithub = 'https://github.com/PuglisiDaniel';
+const urlLinkedin = 'https://www.linkedin.com/in/daniel-p-27a951112/';
+const urlFace = 'https://www.facebook.com/daniel.puglisi.1806';
 
 const App = () =>{
+
+  function handleRedeSocial(redeSocial){
+
+    switch(redeSocial){
+
+      case 'linkedin':
+        Linking.openURL(urlLinkedin);
+      break;
+
+      case 'github':
+        Linking.openURL(urlLinkedin);
+      break;
+
+      case 'facebook':
+        Linking.openURL(urlFace);
+      break;
+
+
+    }
+
+  }
+
   return (
     <>
       <View style = {style.page}>
@@ -17,10 +41,49 @@ const App = () =>{
           <Text style={style.funcao} >Estudante de desenvolvimento mobile</Text>
 
           <View style={style.redesSociais}>
-            <Icon name='github' size={30} color={'#939393'}/>
-            <Icon name='facebook' size={30} color={'#939393'} />
-            <Icon name='linkedin' size={30} color={'#939393'}/>
+            <TouchableOpacity onPress={()=>{handleRedeSocial('github')}}>
+              <Icon name='github' size={30} color={'#939393'}/>
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={()=>{handleRedeSocial('facebook')}}>
+              <Icon name='facebook' size={30} color={'#939393'} />
+            </TouchableOpacity>
+
+            <TouchableOpacity onPress={()=>{handleRedeSocial('linkedin')}}>
+              <Icon name='linkedin' size={30} color={'#939393'}/>
+            </TouchableOpacity>
            
+          </View>
+        </View>
+
+
+        <View style={style.cardContainer}>
+          <View style={style.card}>
+            <View style = {style.cardHeder}>
+              <Text style={{color:'black'}}>Experiências</Text>
+              <View style = {style.cardContent}>
+              <Text style={style.cardContentText}>Linguagem C</Text>
+              <Text style={style.cardContentText}>Python</Text>
+              <Text style={style.cardContentText}>JavaScript</Text>
+              <Text style={style.cardContentText}>PHP</Text>
+
+              </View>
+            </View>
+          </View>
+        </View>
+   
+        <View style={style.cardContainer}>
+          <View style={style.card}>
+            <View style = {style.cardHeder}>
+              <Text style={{color:'black'}}>Formação Acadêmica</Text>
+              <View style = {style.cardContent}>
+              <Text style={style.cardContentText}>Ensino Médio Completo</Text>
+              <Text style={style.cardContentText}>Universidade federal de são paulo</Text>
+              <Text style={style.cardContentText}>Curso de informática</Text>
+              <Text style={style.cardContentText}>Curso de inglês</Text>
+
+              </View>
+            </View>
           </View>
         </View>
    
@@ -35,6 +98,7 @@ const style = StyleSheet.create({
     backgroundColor: '#E7E7E7',
     flex: 1,
 
+
   },
 
   containerCabecalho: {
@@ -45,8 +109,8 @@ const style = StyleSheet.create({
   },
 
   foto: {
-    width: 250,
-    height: 250,
+    width: 200,
+    height: 200,
     borderRadius: 125,
   },
 
@@ -72,6 +136,34 @@ const style = StyleSheet.create({
    
     marginTop: 10,
 
+  },
+
+  cardContainer:{
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: 10,
+  },
+
+  card:{
+    width: '60%',
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: '#939393', 
+    alignItems:'center',
+    backgroundColor: 'white',
+    padding: 3, 
+
+
+  },
+
+  cardContent:{
+    marginTop: 12,
+  },
+
+  cardContentText:{
+    marginTop: 0,
+    color: '#939393',
+    
   },
 });
 
