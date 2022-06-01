@@ -3,5 +3,5 @@
 ## App de currículo versão mobile
 
  
- <img src="./src/assets/exemplo" width="400">
+ <img src="./src/assets/exemplo.jpg" width="400">
  
