@@ -1,6 +1,6 @@
 # Currículo
 
-## App de currículo versão mobile
+## Currículo versão mobile com links para páginas e utilizaação de components
 
  
  <img src="./src/assets/exemplo.jpeg" width="400">
