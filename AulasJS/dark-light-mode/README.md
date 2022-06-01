@@ -9,7 +9,3 @@ Este repositório contém a atividade prática do Curso "DOM", que faz parte do 
 3. Crie um arquivo chamado `scripts.js` na sua pasta `assets/js`
 4. Selecione os elementos: `h1`, `button`, `footer` e `body`
 5. Se os elementos possuirem a classe `dark-mode`, modifique seus estilos. Caso contrário, volte os estilos para o original
-
-## Exemplo
-
-![Exercício Dark Mode e Light Mode](./dark-mode-exercicio.gif)
